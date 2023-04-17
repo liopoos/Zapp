@@ -1,0 +1,22 @@
+/* 
+  Localizable.strings
+  Zapp
+
+  Created by hades on 2023/4/4.
+  
+*/
+
+"Capture..." = "从屏幕截图...";
+"From Clipboard" = "从剪贴板导入";
+"Copy to Clipboard" = "将结果拷贝到剪贴板";
+"Clear History" = "清除历史记录";
+"More Zapps..." = "更多历史记录";
+"From iPhone OR iPad" = "从iPhone或iPad导入";
+"Quit" = "退出";
+
+"Import" = "导入";
+"No History" = "暂无历史记录";
+"History Numbers" = "保存记录个数";
+
+"Launch at login" = "登录时启动";
+"Play sound" = "播放结果音效";

@@ -9,12 +9,11 @@ import SwiftUI
 
 @main
 struct ZappApp: App {
-    let persistenceController = PersistenceController.shared
-
+    @NSApplicationDelegateAdaptor(AppDelegate.self) private var appDelegate
+    
     var body: some Scene {
-        WindowGroup {
+        Settings {
             ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
 }

@@ -1,0 +1,16 @@
+PODS:
+  - DefaultsKit (0.2.0)
+
+DEPENDENCIES:
+  - DefaultsKit
+
+SPEC REPOS:
+  trunk:
+    - DefaultsKit
+
+SPEC CHECKSUMS:
+  DefaultsKit: 6c767941b2c3fe34c4d70e300e6c3b80c94964dd
+
+PODFILE CHECKSUM: 70f1a94355ac5f17140b82bc5c7472009cf33848
+
+COCOAPODS: 1.11.2

@@ -3,27 +3,66 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		281FB72929D97FC7005BDC07 /* ZappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281FB72829D97FC7005BDC07 /* ZappApp.swift */; };
 		281FB72B29D97FC7005BDC07 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281FB72A29D97FC7005BDC07 /* ContentView.swift */; };
 		281FB72D29D97FC8005BDC07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 281FB72C29D97FC8005BDC07 /* Assets.xcassets */; };
 		281FB73029D97FC8005BDC07 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 281FB72F29D97FC8005BDC07 /* Preview Assets.xcassets */; };
-		281FB73229D97FC8005BDC07 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281FB73129D97FC8005BDC07 /* Persistence.swift */; };
 		281FB73529D97FC8005BDC07 /* Zapp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 281FB73329D97FC8005BDC07 /* Zapp.xcdatamodeld */; };
+		281FB73D29D98061005BDC07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281FB73C29D98061005BDC07 /* AppDelegate.swift */; };
+		281FB73F29D982BE005BDC07 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281FB73E29D982BE005BDC07 /* MenuView.swift */; };
+		281FB74329D9937F005BDC07 /* QRCodeImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281FB74229D9937F005BDC07 /* QRCodeImporter.swift */; };
+		281FB74529D9A67F005BDC07 /* QRCodeDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281FB74429D9A67F005BDC07 /* QRCodeDecoder.swift */; };
+		281FB74829D9D0CD005BDC07 /* Zapp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281FB74729D9D0CD005BDC07 /* Zapp.swift */; };
+		281FB74A29DA88B6005BDC07 /* HistoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281FB74929DA88B6005BDC07 /* HistoryManager.swift */; };
+		281FB74D29DA8BE5005BDC07 /* QRCodeImportType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281FB74C29DA8BE5005BDC07 /* QRCodeImportType.swift */; };
+		281FB74F29DA8C03005BDC07 /* QRCodeDecodeStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281FB74E29DA8C03005BDC07 /* QRCodeDecodeStatus.swift */; };
+		281FB75129DAA469005BDC07 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281FB75029DAA469005BDC07 /* MenuController.swift */; };
+		281FB75329DABF3E005BDC07 /* AppStateContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281FB75229DABF3E005BDC07 /* AppStateContainer.swift */; };
+		282A772E29DC42EA000CD8E6 /* ContinuityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282A772D29DC42EA000CD8E6 /* ContinuityViewController.swift */; };
+		282A773029DE9124000CD8E6 /* DefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282A772F29DE9124000CD8E6 /* DefaultsManager.swift */; };
+		2851B84E29DE9330001F3596 /* StoreNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2851B84D29DE9330001F3596 /* StoreNumber.swift */; };
+		28EC6C1929E449A900F58BC7 /* LaunchAtLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 28EC6C1829E449A900F58BC7 /* LaunchAtLogin */; };
+		28EC6C1C29E4522000F58BC7 /* ZappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EC6C1B29E4522000F58BC7 /* ZappApp.swift */; };
+		28F1F66F29DAC68700FE35EA /* Compatibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F1F66E29DAC68700FE35EA /* Compatibility.swift */; };
+		28F1F67229DAFE3C00FE35EA /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F1F67129DAFE3C00FE35EA /* SoundManager.swift */; };
+		28F1F67529DAFF9900FE35EA /* sound_success.wav in Resources */ = {isa = PBXBuildFile; fileRef = 28F1F67429DAFF9900FE35EA /* sound_success.wav */; };
+		28F1F67829DBC72C00FE35EA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28F1F67A29DBC72C00FE35EA /* Localizable.strings */; };
+		CDF716809F9C43C05CB6E95C /* Pods_Zapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 893AC5DA4AF2B2D52CB672AD /* Pods_Zapp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		281FB72529D97FC7005BDC07 /* Zapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		281FB72829D97FC7005BDC07 /* ZappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZappApp.swift; sourceTree = "<group>"; };
 		281FB72A29D97FC7005BDC07 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		281FB72C29D97FC8005BDC07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		281FB72F29D97FC8005BDC07 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		281FB73129D97FC8005BDC07 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		281FB73429D97FC8005BDC07 /* Zapp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Zapp.xcdatamodel; sourceTree = "<group>"; };
 		281FB73629D97FC8005BDC07 /* Zapp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Zapp.entitlements; sourceTree = "<group>"; };
+		281FB73C29D98061005BDC07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		281FB73E29D982BE005BDC07 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		281FB74229D9937F005BDC07 /* QRCodeImporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeImporter.swift; sourceTree = "<group>"; };
+		281FB74429D9A67F005BDC07 /* QRCodeDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeDecoder.swift; sourceTree = "<group>"; };
+		281FB74729D9D0CD005BDC07 /* Zapp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zapp.swift; sourceTree = "<group>"; };
+		281FB74929DA88B6005BDC07 /* HistoryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryManager.swift; sourceTree = "<group>"; };
+		281FB74C29DA8BE5005BDC07 /* QRCodeImportType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeImportType.swift; sourceTree = "<group>"; };
+		281FB74E29DA8C03005BDC07 /* QRCodeDecodeStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeDecodeStatus.swift; sourceTree = "<group>"; };
+		281FB75029DAA469005BDC07 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		281FB75229DABF3E005BDC07 /* AppStateContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStateContainer.swift; sourceTree = "<group>"; };
+		282A772D29DC42EA000CD8E6 /* ContinuityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinuityViewController.swift; sourceTree = "<group>"; };
+		282A772F29DE9124000CD8E6 /* DefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultsManager.swift; sourceTree = "<group>"; };
+		2851B84D29DE9330001F3596 /* StoreNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreNumber.swift; sourceTree = "<group>"; };
+		28EC6C1B29E4522000F58BC7 /* ZappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZappApp.swift; sourceTree = "<group>"; };
+		28F1F66E29DAC68700FE35EA /* Compatibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compatibility.swift; sourceTree = "<group>"; };
+		28F1F67129DAFE3C00FE35EA /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
+		28F1F67429DAFF9900FE35EA /* sound_success.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sound_success.wav; sourceTree = "<group>"; };
+		28F1F67929DBC72C00FE35EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		28F1F67D29DBC7D600FE35EA /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		28F1F67E29DBC98C00FE35EA /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		893AC5DA4AF2B2D52CB672AD /* Pods_Zapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA8C14F4F0D508EBB7AADD02 /* Pods-Zapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zapp.debug.xcconfig"; path = "Target Support Files/Pods-Zapp/Pods-Zapp.debug.xcconfig"; sourceTree = "<group>"; };
+		BF4378A8B3855557D7853706 /* Pods-Zapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zapp.release.xcconfig"; path = "Target Support Files/Pods-Zapp/Pods-Zapp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +70,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28EC6C1929E449A900F58BC7 /* LaunchAtLogin in Frameworks */,
+				CDF716809F9C43C05CB6E95C /* Pods_Zapp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +83,8 @@
 			children = (
 				281FB72729D97FC7005BDC07 /* Zapp */,
 				281FB72629D97FC7005BDC07 /* Products */,
+				4C929266A5F3D3AEBD3BF5E3 /* Pods */,
+				D9BF9377670A5563AF6D6DCB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +99,20 @@
 		281FB72729D97FC7005BDC07 /* Zapp */ = {
 			isa = PBXGroup;
 			children = (
-				281FB72829D97FC7005BDC07 /* ZappApp.swift */,
-				281FB72A29D97FC7005BDC07 /* ContentView.swift */,
+				28F1F67329DAFEB100FE35EA /* Resources */,
+				28F1F67029DAF66F00FE35EA /* Controllers */,
+				281FB74B29DA8BCE005BDC07 /* Enums */,
+				281FB74629D9CDAC005BDC07 /* Models */,
+				281FB74129D99358005BDC07 /* Utils */,
+				281FB74029D982C5005BDC07 /* Views */,
+				28EC6C1B29E4522000F58BC7 /* ZappApp.swift */,
+				281FB73C29D98061005BDC07 /* AppDelegate.swift */,
+				281FB75229DABF3E005BDC07 /* AppStateContainer.swift */,
+				28F1F66E29DAC68700FE35EA /* Compatibility.swift */,
 				281FB72C29D97FC8005BDC07 /* Assets.xcassets */,
-				281FB73129D97FC8005BDC07 /* Persistence.swift */,
 				281FB73629D97FC8005BDC07 /* Zapp.entitlements */,
 				281FB73329D97FC8005BDC07 /* Zapp.xcdatamodeld */,
+				28F1F67A29DBC72C00FE35EA /* Localizable.strings */,
 				281FB72E29D97FC8005BDC07 /* Preview Content */,
 			);
 			path = Zapp;
@@ -75,6 +126,79 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		281FB74029D982C5005BDC07 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				281FB73E29D982BE005BDC07 /* MenuView.swift */,
+				281FB72A29D97FC7005BDC07 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		281FB74129D99358005BDC07 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				281FB74229D9937F005BDC07 /* QRCodeImporter.swift */,
+				281FB74429D9A67F005BDC07 /* QRCodeDecoder.swift */,
+				281FB74929DA88B6005BDC07 /* HistoryManager.swift */,
+				28F1F67129DAFE3C00FE35EA /* SoundManager.swift */,
+				282A772F29DE9124000CD8E6 /* DefaultsManager.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		281FB74629D9CDAC005BDC07 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				281FB74729D9D0CD005BDC07 /* Zapp.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		281FB74B29DA8BCE005BDC07 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				281FB74C29DA8BE5005BDC07 /* QRCodeImportType.swift */,
+				281FB74E29DA8C03005BDC07 /* QRCodeDecodeStatus.swift */,
+				2851B84D29DE9330001F3596 /* StoreNumber.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		28F1F67029DAF66F00FE35EA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				282A772D29DC42EA000CD8E6 /* ContinuityViewController.swift */,
+				281FB75029DAA469005BDC07 /* MenuController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		28F1F67329DAFEB100FE35EA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				28F1F67429DAFF9900FE35EA /* sound_success.wav */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4C929266A5F3D3AEBD3BF5E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA8C14F4F0D508EBB7AADD02 /* Pods-Zapp.debug.xcconfig */,
+				BF4378A8B3855557D7853706 /* Pods-Zapp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D9BF9377670A5563AF6D6DCB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				893AC5DA4AF2B2D52CB672AD /* Pods_Zapp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -82,15 +206,21 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 281FB73929D97FC8005BDC07 /* Build configuration list for PBXNativeTarget "Zapp" */;
 			buildPhases = (
+				3A8D6480F69F6B22CD78FCF0 /* [CP] Check Pods Manifest.lock */,
 				281FB72129D97FC7005BDC07 /* Sources */,
 				281FB72229D97FC7005BDC07 /* Frameworks */,
 				281FB72329D97FC7005BDC07 /* Resources */,
+				6565CDF3AB11D8F8CC37F314 /* [CP] Embed Pods Frameworks */,
+				28EC6C1A29E44A2000F58BC7 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Zapp;
+			packageProductDependencies = (
+				28EC6C1829E449A900F58BC7 /* LaunchAtLogin */,
+			);
 			productName = Zapp;
 			productReference = 281FB72529D97FC7005BDC07 /* Zapp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,14 +241,19 @@
 				};
 			};
 			buildConfigurationList = 281FB72029D97FC7005BDC07 /* Build configuration list for PBXProject "Zapp" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
+				"zh-Hant",
 			);
 			mainGroup = 281FB71C29D97FC7005BDC07;
+			packageReferences = (
+				28EC6C1729E449A900F58BC7 /* XCRemoteSwiftPackageReference "LaunchAtLogin" */,
+			);
 			productRefGroup = 281FB72629D97FC7005BDC07 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -134,11 +269,74 @@
 			buildActionMask = 2147483647;
 			files = (
 				281FB73029D97FC8005BDC07 /* Preview Assets.xcassets in Resources */,
+				28F1F67829DBC72C00FE35EA /* Localizable.strings in Resources */,
+				28F1F67529DAFF9900FE35EA /* sound_success.wav in Resources */,
 				281FB72D29D97FC8005BDC07 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		28EC6C1A29E44A2000F58BC7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${BUILT_PRODUCTS_DIR}/LaunchAtLogin_LaunchAtLogin.bundle/Contents/Resources/copy-helper-swiftpm.sh\"\n";
+		};
+		3A8D6480F69F6B22CD78FCF0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Zapp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6565CDF3AB11D8F8CC37F314 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Zapp/Pods-Zapp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DefaultsKit/DefaultsKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DefaultsKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Zapp/Pods-Zapp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		281FB72129D97FC7005BDC07 /* Sources */ = {
@@ -146,19 +344,47 @@
 			buildActionMask = 2147483647;
 			files = (
 				281FB73529D97FC8005BDC07 /* Zapp.xcdatamodeld in Sources */,
-				281FB73229D97FC8005BDC07 /* Persistence.swift in Sources */,
+				282A773029DE9124000CD8E6 /* DefaultsManager.swift in Sources */,
+				281FB74F29DA8C03005BDC07 /* QRCodeDecodeStatus.swift in Sources */,
+				281FB74A29DA88B6005BDC07 /* HistoryManager.swift in Sources */,
+				281FB73F29D982BE005BDC07 /* MenuView.swift in Sources */,
+				281FB74529D9A67F005BDC07 /* QRCodeDecoder.swift in Sources */,
+				28EC6C1C29E4522000F58BC7 /* ZappApp.swift in Sources */,
+				281FB75329DABF3E005BDC07 /* AppStateContainer.swift in Sources */,
+				28F1F66F29DAC68700FE35EA /* Compatibility.swift in Sources */,
+				2851B84E29DE9330001F3596 /* StoreNumber.swift in Sources */,
+				282A772E29DC42EA000CD8E6 /* ContinuityViewController.swift in Sources */,
 				281FB72B29D97FC7005BDC07 /* ContentView.swift in Sources */,
-				281FB72929D97FC7005BDC07 /* ZappApp.swift in Sources */,
+				281FB73D29D98061005BDC07 /* AppDelegate.swift in Sources */,
+				281FB74829D9D0CD005BDC07 /* Zapp.swift in Sources */,
+				281FB74D29DA8BE5005BDC07 /* QRCodeImportType.swift in Sources */,
+				281FB75129DAA469005BDC07 /* MenuController.swift in Sources */,
+				281FB74329D9937F005BDC07 /* QRCodeImporter.swift in Sources */,
+				28F1F67229DAFE3C00FE35EA /* SoundManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		28F1F67A29DBC72C00FE35EA /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28F1F67929DBC72C00FE35EA /* en */,
+				28F1F67D29DBC7D600FE35EA /* zh-Hans */,
+				28F1F67E29DBC98C00FE35EA /* zh-Hant */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		281FB73729D97FC8005BDC07 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -219,6 +445,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -270,24 +497,29 @@
 		};
 		281FB73A29D97FC8005BDC07 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA8C14F4F0D508EBB7AADD02 /* Pods-Zapp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Zapp/Zapp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_ASSET_PATHS = "\"Zapp/Preview Content\"";
 				DEVELOPMENT_TEAM = X63ZQ5VH53;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Zapp;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.cyberstack.Zapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -297,24 +529,29 @@
 		};
 		281FB73B29D97FC8005BDC07 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF4378A8B3855557D7853706 /* Pods-Zapp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Zapp/Zapp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_ASSET_PATHS = "\"Zapp/Preview Content\"";
 				DEVELOPMENT_TEAM = X63ZQ5VH53;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Zapp;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.cyberstack.Zapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -344,6 +581,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		28EC6C1729E449A900F58BC7 /* XCRemoteSwiftPackageReference "LaunchAtLogin" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/LaunchAtLogin";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		28EC6C1829E449A900F58BC7 /* LaunchAtLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 28EC6C1729E449A900F58BC7 /* XCRemoteSwiftPackageReference "LaunchAtLogin" */;
+			productName = LaunchAtLogin;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		281FB73329D97FC8005BDC07 /* Zapp.xcdatamodeld */ = {
