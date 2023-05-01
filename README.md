@@ -2,6 +2,8 @@
 
 A menu bar application that decodes QR codes from the screen.
 
+![screenshot_cn](https://raw.githubusercontent.com/liopoos/Zapp/master/Screenshots/screenshot_cn.png)
+
 ## System Requirements
 
 macOS 11 or later.
