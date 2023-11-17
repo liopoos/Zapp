@@ -47,7 +47,7 @@ sudo codesign --force --deep --sign - /Applications/Zapp.app/
 git clone https://github.com/liopoos/Zapp.git
 ```
 
-1. Open `Zapp.xcworkspace` with Xcode and build it yourself.
+2. Open `Zapp.xcworkspace` with Xcode and build it yourself.
 
 ## Usage
 
